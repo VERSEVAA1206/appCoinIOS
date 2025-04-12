@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A09F09032DAACFC600B63FDD /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = A09F09022DAACFC600B63FDD /* Dependencies */; };
+		A09F09052DAACFC600B63FDD /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = A09F09042DAACFC600B63FDD /* DependenciesMacros */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0B8A6602DA9E33900CE5595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B8A6472DA9E33700CE5595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B8A64E2DA9E33800CE5595;
+			remoteInfo = "Cryto-iOS";
+		};
+		A0B8A66A2DA9E33900CE5595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B8A6472DA9E33700CE5595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B8A64E2DA9E33800CE5595;
+			remoteInfo = "Cryto-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0B8A64F2DA9E33800CE5595 /* Cryto-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cryto-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B8A65F2DA9E33900CE5595 /* Cryto-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryto-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B8A6692DA9E33900CE5595 /* Cryto-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cryto-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A08D51242DAAB12100933A6A /* Networking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A0B8A6512DA9E33800CE5595 /* Cryto-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cryto-iOS";
+			sourceTree = "<group>";
+		};
+		A0B8A6622DA9E33900CE5595 /* Cryto-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cryto-iOSTests";
+			sourceTree = "<group>";
+		};
+		A0B8A66C2DA9E33900CE5595 /* Cryto-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cryto-iOSUITests";
+			sourceTree = "<group>";
+		};
+		A0B8A67C2DA9E50A00CE5595 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0B8A6832DA9E96200CE5595 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0B8A68F2DA9F69A00CE5595 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B8A64C2DA9E33800CE5595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09F09052DAACFC600B63FDD /* DependenciesMacros in Frameworks */,
+				A09F09032DAACFC600B63FDD /* Dependencies in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8A65C2DA9E33900CE5595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8A6662DA9E33900CE5595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B8A6462DA9E33700CE5595 = {
+			isa = PBXGroup;
+			children = (
+				A08D51242DAAB12100933A6A /* Networking */,
+				A0B8A68F2DA9F69A00CE5595 /* ViewModel */,
+				A0B8A6832DA9E96200CE5595 /* Views */,
+				A0B8A67C2DA9E50A00CE5595 /* Models */,
+				A0B8A6512DA9E33800CE5595 /* Cryto-iOS */,
+				A0B8A6622DA9E33900CE5595 /* Cryto-iOSTests */,
+				A0B8A66C2DA9E33900CE5595 /* Cryto-iOSUITests */,
+				A0B8A6502DA9E33800CE5595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B8A6502DA9E33800CE5595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B8A64F2DA9E33800CE5595 /* Cryto-iOS.app */,
+				A0B8A65F2DA9E33900CE5595 /* Cryto-iOSTests.xctest */,
+				A0B8A6692DA9E33900CE5595 /* Cryto-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0B8A64E2DA9E33800CE5595 /* Cryto-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B8A6732DA9E33900CE5595 /* Build configuration list for PBXNativeTarget "Cryto-iOS" */;
+			buildPhases = (
+				A0B8A64B2DA9E33800CE5595 /* Sources */,
+				A0B8A64C2DA9E33800CE5595 /* Frameworks */,
+				A0B8A64D2DA9E33800CE5595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A08D51242DAAB12100933A6A /* Networking */,
+				A0B8A6512DA9E33800CE5595 /* Cryto-iOS */,
+				A0B8A67C2DA9E50A00CE5595 /* Models */,
+				A0B8A6832DA9E96200CE5595 /* Views */,
+				A0B8A68F2DA9F69A00CE5595 /* ViewModel */,
+			);
+			name = "Cryto-iOS";
+			packageProductDependencies = (
+				A09F09022DAACFC600B63FDD /* Dependencies */,
+				A09F09042DAACFC600B63FDD /* DependenciesMacros */,
+			);
+			productName = "Cryto-iOS";
+			productReference = A0B8A64F2DA9E33800CE5595 /* Cryto-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0B8A65E2DA9E33900CE5595 /* Cryto-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B8A6762DA9E33900CE5595 /* Build configuration list for PBXNativeTarget "Cryto-iOSTests" */;
+			buildPhases = (
+				A0B8A65B2DA9E33900CE5595 /* Sources */,
+				A0B8A65C2DA9E33900CE5595 /* Frameworks */,
+				A0B8A65D2DA9E33900CE5595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B8A6612DA9E33900CE5595 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0B8A6622DA9E33900CE5595 /* Cryto-iOSTests */,
+			);
+			name = "Cryto-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "Cryto-iOSTests";
+			productReference = A0B8A65F2DA9E33900CE5595 /* Cryto-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0B8A6682DA9E33900CE5595 /* Cryto-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B8A6792DA9E33900CE5595 /* Build configuration list for PBXNativeTarget "Cryto-iOSUITests" */;
+			buildPhases = (
+				A0B8A6652DA9E33900CE5595 /* Sources */,
+				A0B8A6662DA9E33900CE5595 /* Frameworks */,
+				A0B8A6672DA9E33900CE5595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B8A66B2DA9E33900CE5595 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0B8A66C2DA9E33900CE5595 /* Cryto-iOSUITests */,
+			);
+			name = "Cryto-iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Cryto-iOSUITests";
+			productReference = A0B8A6692DA9E33900CE5595 /* Cryto-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0B8A6472DA9E33700CE5595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A0B8A64E2DA9E33800CE5595 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A0B8A65E2DA9E33900CE5595 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A0B8A64E2DA9E33800CE5595;
+					};
+					A0B8A6682DA9E33900CE5595 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A0B8A64E2DA9E33800CE5595;
+					};
+				};
+			};
+			buildConfigurationList = A0B8A64A2DA9E33700CE5595 /* Build configuration list for PBXProject "Cryto-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0B8A6462DA9E33700CE5595;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A09F09012DAACFC600B63FDD /* XCRemoteSwiftPackageReference "swift-dependencies" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A0B8A6502DA9E33800CE5595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B8A64E2DA9E33800CE5595 /* Cryto-iOS */,
+				A0B8A65E2DA9E33900CE5595 /* Cryto-iOSTests */,
+				A0B8A6682DA9E33900CE5595 /* Cryto-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0B8A64D2DA9E33800CE5595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8A65D2DA9E33900CE5595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8A6672DA9E33900CE5595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0B8A64B2DA9E33800CE5595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8A65B2DA9E33900CE5595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B8A6652DA9E33900CE5595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0B8A6612DA9E33900CE5595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B8A64E2DA9E33800CE5595 /* Cryto-iOS */;
+			targetProxy = A0B8A6602DA9E33900CE5595 /* PBXContainerItemProxy */;
+		};
+		A0B8A66B2DA9E33900CE5595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B8A64E2DA9E33800CE5595 /* Cryto-iOS */;
+			targetProxy = A0B8A66A2DA9E33900CE5595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0B8A6712DA9E33900CE5595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0B8A6722DA9E33900CE5595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B8A6742DA9E33900CE5595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryto-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verosegarra.Cryto-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0B8A6752DA9E33900CE5595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryto-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verosegarra.Cryto-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0B8A6772DA9E33900CE5595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verosegarra.Cryto-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryto-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cryto-iOS";
+			};
+			name = Debug;
+		};
+		A0B8A6782DA9E33900CE5595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verosegarra.Cryto-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryto-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cryto-iOS";
+			};
+			name = Release;
+		};
+		A0B8A67A2DA9E33900CE5595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verosegarra.Cryto-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cryto-iOS";
+			};
+			name = Debug;
+		};
+		A0B8A67B2DA9E33900CE5595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "verosegarra.Cryto-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cryto-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0B8A64A2DA9E33700CE5595 /* Build configuration list for PBXProject "Cryto-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B8A6712DA9E33900CE5595 /* Debug */,
+				A0B8A6722DA9E33900CE5595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B8A6732DA9E33900CE5595 /* Build configuration list for PBXNativeTarget "Cryto-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B8A6742DA9E33900CE5595 /* Debug */,
+				A0B8A6752DA9E33900CE5595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B8A6762DA9E33900CE5595 /* Build configuration list for PBXNativeTarget "Cryto-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B8A6772DA9E33900CE5595 /* Debug */,
+				A0B8A6782DA9E33900CE5595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B8A6792DA9E33900CE5595 /* Build configuration list for PBXNativeTarget "Cryto-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B8A67A2DA9E33900CE5595 /* Debug */,
+				A0B8A67B2DA9E33900CE5595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A09F09012DAACFC600B63FDD /* XCRemoteSwiftPackageReference "swift-dependencies" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-dependencies";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A09F09022DAACFC600B63FDD /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09F09012DAACFC600B63FDD /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		A09F09042DAACFC600B63FDD /* DependenciesMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09F09012DAACFC600B63FDD /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesMacros;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A0B8A6472DA9E33700CE5595 /* Project object */;
+}
