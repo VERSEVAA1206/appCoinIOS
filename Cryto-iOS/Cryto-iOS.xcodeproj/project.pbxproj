@@ -46,6 +46,11 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		A0B5B1152DBB050100FBD007 /* Authentication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		A0B8A6512DA9E33800CE5595 /* Cryto-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Cryto-iOS";
@@ -112,6 +117,7 @@
 		A0B8A6462DA9E33700CE5595 = {
 			isa = PBXGroup;
 			children = (
+				A0B5B1152DBB050100FBD007 /* Authentication */,
 				A00144852DB9AE3B00E5166D /* GoogleService-Info.plist */,
 				A08D51242DAAB12100933A6A /* Networking */,
 				A0B8A68F2DA9F69A00CE5595 /* ViewModel */,
@@ -151,6 +157,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A08D51242DAAB12100933A6A /* Networking */,
+				A0B5B1152DBB050100FBD007 /* Authentication */,
 				A0B8A6512DA9E33800CE5595 /* Cryto-iOS */,
 				A0B8A67C2DA9E50A00CE5595 /* Models */,
 				A0B8A6832DA9E96200CE5595 /* Views */,

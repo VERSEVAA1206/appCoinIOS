@@ -28,7 +28,7 @@ struct AssetList: View {
             
         }
        
-//        .onAppear {
+//        .onAppear {bbbbbbb
 //            task = Task {
 //                await viewModel.fetchAssets()
 //            }

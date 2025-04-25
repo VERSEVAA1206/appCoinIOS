@@ -1,10 +1,22 @@
-
 import Dependencies
 import Foundation
 import XCTestDynamicOverlay
+import FirebaseFirestore
 
-struct AssetsApiClient {
+struct AssetsApiClient: DependencyKey{
+    static var liveValue: AssetsApiClient{
+        let db = Firestore.firestore().collection("favourites")
+        let urlSession=URLSession.shared
+        let apikey=""
+        let baseUrl=""
+        
+        return .init(
+            fetchAllAssets: <#T##() async throws -> [Asset]#>, saveFavourite: <#T##(User, Asset) async throws -> Void#>
+        )
+        
+    }
     var fetchAllAssets: () async throws -> [Asset]
+    var saveFavourite: (User, Asset) async throws -> Void
 }
 
 enum NetworkingError: Error {
@@ -20,7 +32,9 @@ enum NetworkingError: Error {
 
 extension AssetsApiClient: DependencyKey {
     static var liveValue: AssetsApiClient {
-        .init(
+        let db = Firestore.firestore().collection("favourites")
+        
+        return .init(
             fetchAllAssets: {
                 let urlSession = URLSession.shared
                 
@@ -32,6 +46,21 @@ extension AssetsApiClient: DependencyKey {
                 let assetsResponse = try JSONDecoder().decode(AssetsResponse.self, from: data)
                 
                 return assetsResponse.data
+            },
+            saveFavourite: { user, asset in
+                try await db.document(user.id).setData(
+                    ["favourites": FieldValue.arrayUnion([asset.id])],
+                    merge: true
+                )
+            },
+            fetchAsset: {assetId in
+                guard let url = URL(string : "")else {
+                    throw NetworkingError.invalidURL
+                }
+                let (data,_)= try await URLSession.data(for: URLRequest(url :url))
+                let asset= try JSONDecoder().decode(Asset.self, from:data)
+                return asset
+                
             }
         )
     }
@@ -60,16 +89,22 @@ extension AssetsApiClient: DependencyKey {
                     priceUsd: "500.29292929",
                     changePercent24Hr: "9.2828282"
                 )
-            ]}
+            ]},
+            saveFavourite: { _, _ in }
         )
     }
     
     static var testValue: AssetsApiClient {
-        .init(fetchAllAssets: {
-            XCTFail("AssetsApiClient.fetchAllAssets is unimplemented")
-//            reportIssue("AssetsApiClient.fetchAllAssets is unimplemented")
-            return []
-        })
+        .init(
+            fetchAllAssets: {
+                XCTFail("AssetsApiClient.fetchAllAssets is unimplemented")
+                //            reportIssue("AssetsApiClient.fetchAllAssets is unimplemented")
+                return []
+            },
+            saveFavourite: { _, _ in
+                XCTFail("AssetsApiClient.saveFavourite is unimplemented")
+            }
+        )
     }
 }
 
